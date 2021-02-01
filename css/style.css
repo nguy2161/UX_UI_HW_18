@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:0px 10%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 15px;
+
+}
+nav ul li a {
+    color: #404040;
+    font-weight: medium;
+}  
+
+.logo {
+    cursor: pointer;
+    max-width: 85%;
+    max-height: 85%;
+    align-items: center;
+
+}
+/* Banner */
+.Banner {
+    display:flex ;
+    background: #fbf1e9;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+banner h1 {
+    font-size: 55px;
+    color: #de5d00;
+}
+banner p {
+    font-size: 25px;
+    color: #de5d00;
+}
+/* Work */
+work {
+    font-size: 18px;
+    color: #404040;
+}
