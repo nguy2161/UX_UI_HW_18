@@ -1,20 +1,22 @@
+
 *{
     padding:0;
     margin: 0;
-    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: 'Lato', sans-serif;}
 /* Navigation Bar */
 
 nav {
+    width: 85%;
+    margin: auto;
+    padding:10px 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding:0px 10%;
+    align-items: center;
+
 }
 nav ul {
     float: right;
@@ -23,12 +25,14 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 90px;
-    margin: 0 15px;
+    margin: 0 20px;
+
 
 }
 nav ul li a {
     color: #404040;
     font-weight: medium;
+    text-decoration: none;
 }  
 
 .logo {
@@ -36,26 +40,170 @@ nav ul li a {
     max-width: 85%;
     max-height: 85%;
     align-items: center;
-
 }
 /* Banner */
 .Banner {
     display:flex ;
     background: #fbf1e9;
     height: 600px;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
+    top: 50%;
+    left: 50%;
 }
-banner h1 {
-    font-size: 55px;
+h1 {
+    font-size: 60px;
     color: #de5d00;
+
 }
-banner p {
-    font-size: 25px;
-    color: #de5d00;
+p {
+    font-size: 18px;
+    line-height: 20px;
 }
 /* Work */
 work {
     font-size: 18px;
     color: #404040;
+    
 }
+h2 {
+    line-height: 64px;
+    font-size: 40px;
+}
+h3 {
+    line-height: px;
+}
+h4 {
+    font-size: 30px;
+    color: #de5d00;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+.Overview {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+
+.The_Problem {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.The_Solution {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.My_Process {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Website_Assessment {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Interviews {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Assessment_Img {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.Affinity_Diagram {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Ideate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.User_Personas {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Personas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15p 0x;
+    margin: 50px;
+}
+.Card_Sorting {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.User_Flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Prototyping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sketching_Wireframes {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Sketches {
+    display: flex;
+    width: 1355px;
+    padding: 200px;
+    background: #909090;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.Test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.User_Testing {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+.Finds_Iterations {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 0 90px;
+    justify-content: space-between;
+}
+.Prototypes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #fbf1e9;
+}
+.Prototypes li{
+    text-decoration: none;
+    color:  #de5d00;
+}
+.Desktop {
+    display: flex;
+}
+.Final {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.footer-left {
+    margin-left: 20px;
+}
+.footer-right {
+    float: right;
+}
+
