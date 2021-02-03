@@ -18,7 +18,7 @@ h2 {
     font-size: 40px;
 }
 h3 {
-    line-height: px;
+    margin:15px 0;
  }
 h4 {
     font-size: 30px;
@@ -28,7 +28,7 @@ h4 {
 }
 p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 27px;
 }
     
 /* Navigation Bar */
@@ -110,27 +110,39 @@ work {
     padding: 0 20px;
     margin: 50px 100px;
 }
-.My_Process {
+.My_Process{
     padding: 0 20px;
     margin: 50px 100px;
+}
+.Process{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 .Website_Assessment {
-    padding: 0 20px;
-    margin: 50px 100px;
-}
-.Interviews {
     padding: 0 20px;
     margin: 50px 100px;
 }
 .Assessment_Img {
     display: flex;
     align-items: center;
-    padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 25px 60px;
+
 }
+.Interviews {
+    padding: 0 20px;
+    margin: 50px 100px;
+}
+
 .Affinity_Diagram {
     padding: 0 20px;
     margin: 50px 100px;
+}
+.Affinity_Diagram > img{
+    margin-top: 20px;
+    width: auto;
 }
 .Ideate {
     display: flex;
@@ -143,7 +155,7 @@ work {
 }
 .Personas {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 15p 0x;
     margin: 50px;
@@ -184,28 +196,28 @@ work {
     padding: 0 20px;
     margin: 50px 100px;
 }
-.Iterations{
+.Iterations> p{
     min-width: 200px;
 }
 .Finds_Iterations {
     display: flex;
     align-items: center;
-    padding: 50px;
     margin: 0;
     justify-content: space-between;
 }
 .Prototypes {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background:  #fbf1e9;
+    padding: 40px 0;
 }
 .Prototypes li{
     text-decoration: none;
     color:  #de5d00;
 }
-.Desktop {
-    display: flex;
+.desktop {
+    align-content: center;
 }
 .Final {
     padding: 0 20px;
@@ -225,13 +237,15 @@ work {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    margin: 40px 0;
+    margin: 50px 70px;
     line-height: 30px;
 }
 .footer-left {
     margin-left: 20px;
 }
+.footer-left > h3{
+    margin: 0 0;
+}   
 .footer-right {
     float: right;
 }
-
