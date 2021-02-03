@@ -72,6 +72,7 @@ nav ul li a {
     height: 600px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     top: 50%;
     left: 50%;
 }
@@ -84,6 +85,21 @@ work {
 .Overview {
     padding: 0 20px;
     margin: 50px 100px;
+}
+
+.Overview > .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.Overview > .col > .row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Overview > .col > .row > .col-1 {
+    min-width: 200px;
 }
 
 .The_Problem {
@@ -152,7 +168,7 @@ work {
 }
 .Sketches {
     display: flex;
-    width: 1355px;
+    width: auto;
     padding: 200px;
     background: #909090;
     align-items: center;
@@ -168,11 +184,14 @@ work {
     padding: 0 20px;
     margin: 50px 100px;
 }
+.Iterations{
+    min-width: 200px;
+}
 .Finds_Iterations {
     display: flex;
     align-items: center;
     padding: 50px;
-    margin: 0 90px;
+    margin: 0;
     justify-content: space-between;
 }
 .Prototypes {
@@ -192,6 +211,13 @@ work {
     padding: 0 20px;
     margin: 50px 100px;
 }
+.Bullets {
+    margin: 20px 0;
+}
+.Bullets > p {
+    margin-bottom: 10px;
+}   
+
 
 /* Footer */
 .footer {
